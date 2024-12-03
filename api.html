@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Explorer</title>
+    <link rel="stylesheet" href="api.css">
+</head>
+<body>
+<header>
+    <h1>Pokémon Explorer</h1>
+</header>
+<main>
+    <table id="pokemon-table">
+        <thead>
+        <tr>
+            <th>#</th>
+            <th>Name</th>
+        </tr>
+        </thead>
+        <tbody>
+        <!-- Pokémon data will be inserted here -->
+        </tbody>
+    </table>
+    <div class="pagination">
+        <button id="prev-button">Previous</button>
+        <span id="page-info"></span>
+        <button id="next-button">Next</button>
+    </div>
+</main>
+<script src="api.js" type="module"></script>
+</body>
+</html>
